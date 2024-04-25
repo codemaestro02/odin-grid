@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css">
+		<title>Odin Dashboard</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<aside>
+					<span class="logo">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <title>palette-swatch-variant</title>
+                                <path
+                                    d="M20 14H6C3.8 14 2 15.8 2 18S3.8 22 6 22H20C21.1 22 22 21.1 22 20V16C22 14.9 21.1 14 20 14M6 20C4.9 20 4 19.1 4 18S4.9 16 6 16 8 16.9 8 18 7.1 20 6 20M6.3 12L13 5.3C13.8 4.5 15 4.5 15.8 5.3L18.6 8.1C19.4 8.9 19.4 10.1 18.6 10.9L17.7 12H6.3M2 13.5V4C2 2.9 2.9 2 4 2H8C9.1 2 10 2.9 10 4V5.5L2 13.5Z"
+                                />
+                            </svg>
+                            <span class="name">Dashboard</span>
+                            
+                        </a>
+						
+					</span>
+					<div class="main nav-items">
+						<div class="nav-item">
+                            <a href="#">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>home</title>
+                                        <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+                                    </svg>
+                                </span>
+                                <span class="name"> Home </span>
+                            </a>
+							
+						</div>
+						<div class="nav-item">
+                            <a href="#">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>card-account-details-outline</title>
+                                        <path
+                                            d="M22,3H2C0.91,3.04 0.04,3.91 0,5V19C0.04,20.09 0.91,20.96 2,21H22C23.09,20.96 23.96,20.09 24,19V5C23.96,3.91 23.09,3.04 22,3M22,19H2V5H22V19M14,17V15.75C14,14.09 10.66,13.25 9,13.25C7.34,13.25 4,14.09 4,15.75V17H14M9,7A2.5,2.5 0 0,0 6.5,9.5A2.5,2.5 0 0,0 9,12A2.5,2.5 0 0,0 11.5,9.5A2.5,2.5 0 0,0 9,7M14,7V8H20V7H14M14,9V10H20V9H14M14,11V12H18V11H14"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="name"> Profile </span>
+                            </a>
+						</div>
+						<div class="nav-item">
+                            <a href="#">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>message</title>
+                                        <path
+                                            d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="name"> Messages </span>
+                            </a>
+							
+						</div>
+						<div class="nav-item">
+                            <a href="#">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>clock-time-five</title>
+                                        <path
+                                            d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12S17.5 2 12 2M14 17L11 11.8V7H12.5V11.4L15.3 16.3L14 17Z"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="name"> History </span>
+                            </a>
+							
+						</div>
+						<div class="nav-item">
+                            <a href="#">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>text-box-check</title>
+                                        <path
+                                            d="M17,21L14.25,18L15.41,16.84L17,18.43L20.59,14.84L21.75,16.25M12.8,21H5C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3H19A2,2 0 0,1 21,5V12.8C20.12,12.29 19.09,12 18,12L17,12.08V11H7V13H14.69C13.07,14.07 12,15.91 12,18C12,19.09 12.29,20.12 12.8,21M12,15H7V17H12M17,7H7V9H17"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="name"> Tasks </span>
+                            </a>
+							
+						</div>
+						<div class="nav-item">
+							<a href="#">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>account-group</title>
+                                        <path
+                                            d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="name"> Communities </span>
+                            </a>
+						</div>
+					</div>
+					<div class="other nav-items">
+						<div class="nav-item">
+							<a href="#">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>cogs</title>
+                                        <path
+                                            d="M15.9,18.45C17.25,18.45 18.35,17.35 18.35,16C18.35,14.65 17.25,13.55 15.9,13.55C14.54,13.55 13.45,14.65 13.45,16C13.45,17.35 14.54,18.45 15.9,18.45M21.1,16.68L22.58,17.84C22.71,17.95 22.75,18.13 22.66,18.29L21.26,20.71C21.17,20.86 21,20.92 20.83,20.86L19.09,20.16C18.73,20.44 18.33,20.67 17.91,20.85L17.64,22.7C17.62,22.87 17.47,23 17.3,23H14.5C14.32,23 14.18,22.87 14.15,22.7L13.89,20.85C13.46,20.67 13.07,20.44 12.71,20.16L10.96,20.86C10.81,20.92 10.62,20.86 10.54,20.71L9.14,18.29C9.05,18.13 9.09,17.95 9.22,17.84L10.7,16.68L10.65,16L10.7,15.31L9.22,14.16C9.09,14.05 9.05,13.86 9.14,13.71L10.54,11.29C10.62,11.13 10.81,11.07 10.96,11.13L12.71,11.84C13.07,11.56 13.46,11.32 13.89,11.15L14.15,9.29C14.18,9.13 14.32,9 14.5,9H17.3C17.47,9 17.62,9.13 17.64,9.29L17.91,11.15C18.33,11.32 18.73,11.56 19.09,11.84L20.83,11.13C21,11.07 21.17,11.13 21.26,11.29L22.66,13.71C22.75,13.86 22.71,14.05 22.58,14.16L21.1,15.31L21.15,16L21.1,16.68M6.69,8.07C7.56,8.07 8.26,7.37 8.26,6.5C8.26,5.63 7.56,4.92 6.69,4.92A1.58,1.58 0 0,0 5.11,6.5C5.11,7.37 5.82,8.07 6.69,8.07M10.03,6.94L11,7.68C11.07,7.75 11.09,7.87 11.03,7.97L10.13,9.53C10.08,9.63 9.96,9.67 9.86,9.63L8.74,9.18L8,9.62L7.81,10.81C7.79,10.92 7.7,11 7.59,11H5.79C5.67,11 5.58,10.92 5.56,10.81L5.4,9.62L4.64,9.18L3.5,9.63C3.41,9.67 3.3,9.63 3.24,9.53L2.34,7.97C2.28,7.87 2.31,7.75 2.39,7.68L3.34,6.94L3.31,6.5L3.34,6.06L2.39,5.32C2.31,5.25 2.28,5.13 2.34,5.03L3.24,3.47C3.3,3.37 3.41,3.33 3.5,3.37L4.63,3.82L5.4,3.38L5.56,2.19C5.58,2.08 5.67,2 5.79,2H7.59C7.7,2 7.79,2.08 7.81,2.19L8,3.38L8.74,3.82L9.86,3.37C9.96,3.33 10.08,3.37 10.13,3.47L11.03,5.03C11.09,5.13 11.07,5.25 11,5.32L10.03,6.06L10.06,6.5L10.03,6.94Z"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="name"> Settings </span>
+                            </a>
+						</div>
+						<div class="nav-item">
+                            <a href="#">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>help-circle</title>
+                                        <path
+                                            d="M15.07,11.25L14.17,12.17C13.45,12.89 13,13.5 13,15H11V14.5C11,13.39 11.45,12.39 12.17,11.67L13.41,10.41C13.78,10.05 14,9.55 14,9C14,7.89 13.1,7 12,7A2,2 0 0,0 10,9H8A4,4 0 0,1 12,5A4,4 0 0,1 16,9C16,9.88 15.64,10.67 15.07,11.25M13,19H11V17H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="name"> Support </span>
+                            </a>
+							
+						</div>
+						<div class="nav-item">
+                            <a href="#">
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <title>shield-check</title>
+                                        <path
+                                            d="M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1Z"
+                                        />
+                                    </svg>
+                                </span>
+                                <span class="name"> Privacy </span>
+                            </a>
+							
+						</div>
+					</div>
+				</aside>
+				<main>
+					<section class="navbar">
+						<nav>
+							<div class="search-bar">
+								
+                                <form action="#" method="get">
+                                    <label for="search">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                            <title>magnify</title>
+                                            <path
+                                                d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"
+                                            />
+                                        </svg>
+                                    </label>
+                                    <input type="search" name="search" id="search" />
+                                </form>
+								
+							</div>
+							<div class="profile">
+								<span class="notifications">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+										<title>bell-ring</title>
+										<path
+											d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z"
+										/>
+									</svg>
+								</span>
+								<img
+									src="./media/profile_pic.jpg"
+									alt="Profile Picture"
+									class="profile-pic"
+								/>
+								<span class="account-name">Morgan Oakley</span>
+							</div>
+						</nav>
+						<div class="nav">
+							<div class="intro">
+								<img
+									src="./media/profile_pic.jpg"
+									alt="Profile Picture"
+									class="profile-pic"
+								/>
+								<div class="greetings">
+									<small>Hi there,</small>
+									<h1>Morgan Oakley (@morgan)</h1>
+								</div>
+							</div>
+							<div class="nav-buttons">
+								<div class="nav-button">
+									<input type="button" value="New" />
+								</div>
+								<div class="nav-button">
+									<input type="button" value="Upload" />
+								</div>
+								<div class="nav-button">
+									<input type="button" value="Share" />
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="content">
+						<div class="projects">
+							<h2>Your Projects</h2>
+							<div class="container">
+								<div class="project">
+									<div class="preview">
+										<h3>Super Cool Project</h3>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											Sed eleifend non erat vitae porta. Nunc imperdiet libero
+											nisl, et commodo ipsum pretium quis.
+										</p>
+									</div>
+									<div class="options">
+										<div>
+											<a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                            </a>
+										</div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                            </a>
+                                        </div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                                            </a>
+                                        </div>
+									</div>
+								</div>
+								<div class="project">
+                                    <div class="preview">
+                                        <h3>Less Cool Project</h3>
+                                        <p>
+                                            Proin suscipit ligula ut tortor luctus, sit amet lobortis
+                                            ipsum mattis. Etiam quam ex, egestas et ligula sit amet,
+                                            interdum placerat erat.
+                                        </p>
+                                    </div>
+                                    <div class="options">
+										<div>
+											<a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                            </a>
+										</div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                            </a>
+                                        </div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                                            </a>
+                                        </div>
+									</div>
+									
+								</div>
+								<div class="project">
+                                    <div class="preview">
+                                        <h3>Impossible App</h3>
+                                        <p>
+                                            Maecenas pellentesque magna in accumsan pharetra. Nunc ut
+                                            hendrerit ligula. Pellentesque ut odio eu orci consequat
+                                            porttitor.
+                                        </p>
+                                    </div>
+                                    <div class="options">
+										<div>
+											<a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                            </a>
+										</div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                            </a>
+                                        </div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                                            </a>
+                                        </div>
+									</div>
+									
+								</div>
+								<div class="project">
+                                    <div class="preview">
+                                        <h3>Easy Peasy App</h3>
+                                        <p>
+                                            Vivamus laoreet ornare est. Donec sit amet diam quis ex
+                                            hendrerit volutpat sagittis eu risus. Phasellus quam enim,
+                                            accumsan molestie tortor et.
+                                        </p>
+                                    </div>
+                                    <div class="options">
+										<div>
+											<a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                            </a>
+										</div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                            </a>
+                                        </div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                                            </a>
+                                        </div>
+									</div>
+									
+								</div>
+								<div class="project">
+                                    <div class="preview">
+                                        <h3>Ad Blocker</h3>
+                                        <p>
+                                            Phasellus vitae dictum ex. Cras euismod laoreet ultrices.
+                                            Nullam purus sem, luctus ut tortor vel, ornare rutrum velit.
+                                        </p>
+                                    </div>
+                                    <div class="options">
+										<div>
+											<a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                            </a>
+										</div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                            </a>
+                                        </div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                                            </a>
+                                        </div>
+									</div>
+									
+								</div>
+								<div class="project">
+                                    <div class="preview">
+                                        <h3>Money Maker</h3>
+                                        <p>
+                                            Etiam vel venenatis odio, et dignissim lectus. Maecenas
+                                            dictum neque lectus, eu scelerisque nulla aliquam quis.
+                                            Quisque cursus a arcu in eleifend. Aliquam erat volutpat.
+                                        </p>
+                                    </div>
+                                    <div class="options">
+										<div>
+											<a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>star-plus-outline</title><path d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" /></svg>
+                                            </a>
+										</div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>eye-plus-outline</title><path d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" /></svg>
+                                            </a>
+                                        </div>
+										<div>
+                                            <a href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>share-variant-outline</title><path d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" /></svg>
+                                            </a>
+                                        </div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="box" id="announcements">
+							<h2>Announcements</h2>
+							<div class="container">
+								<div class="post">
+									<h4>Site Maintenance</h4>
+									<p>
+										Etiam vel venenatis odio, et dignissim lectus. Maecenas
+										dictum neque lectus...
+									</p>
+								</div>
+								<div class="post">
+									<h4>Community Share Pay</h4>
+									<p>
+										Etiam sed enim mattis, tempus diam eu, laoreet est. Sed
+										convallis sem eu lacinia feugiat...
+									</p>
+								</div>
+								<div class="post" id="last">
+									<h4>Updated Privacy Policy</h4>
+									<p>
+										Fusce consequat risus lorem, sodales vulputate libero
+										tristique at. Integer sagittis dignissim...
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="box" id="trending">
+							<h2>Trending</h2>
+							<div class="container">
+								<div class="account">
+									<img src="./media/girl.png" alt="" />
+									<div class="detail">
+										<span class="username"> @tegan </span>
+										<span class="projectname"> World Peace </span>
+									</div>
+								</div>
+								<div class="account">
+									<img src="./media/profile_pic.jpg" alt="my profile picture" />
+									<div class="detail">
+										<span class="username"> @morgan </span>
+										<span class="projectname"> Super Cool Project </span>
+									</div>
+								</div>
+								<div class="account">
+									<img src="./media/cat.png" alt="" />
+									<div class="detail">
+										<span class="username"> @kendall </span>
+										<span class="projectname"> Life Changing App </span>
+									</div>
+								</div>
+								<div class="account">
+									<img src="./media/preview.png" alt="" />
+									<div class="detail">
+										<span class="username"> @alex </span>
+										<span class="projectname"> No Traffic Maker </span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</main>
+			</div>
+		</div>
+	</body>
+</html>
